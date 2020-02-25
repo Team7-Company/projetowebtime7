@@ -1,14 +1,11 @@
-function imagem1(){
-    document.getElementById('id').src="img/pmc1.jpg";
-    setTimeout("imagem2()",3000)
-}
 
-function imagem2(){
-    document.getElementById('id').src="img/pmc2.png";
-    setTimeout("imagem3()",3000)
-}
+var slides = document.querySelectorAll('#slides li')
+var slideAtual = 0;
+var posicaoFinalSlide = slides.length - 1
 
-function imagem3(){
-    document.getElementById('id').src="img/pmc3.jpg";
-    setTimeout("imagem1()",3000)
-}
+window.setInterval(function(){
+    var ultimaPosicaoSlide = slideAtual ? slideAtual - 1: posicaoFinalSlide;
+    slides[ultimaPosicaoSlide].className = '';
+    slides[slideAtual].className = 'slide-ativo';
+    slideAtual = slideAtual >= posicaoFinalSlide ? 0: slideAtual + 1;
+}, 5000)

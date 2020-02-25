@@ -37,3 +37,29 @@ body{
 
     background-color: navajowhite;
 }
+
+#slides{
+    list-style: none;
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#slides li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+#slides li.slide-ativo{
+    z-index: 1;
+    opacity: 1;
+}

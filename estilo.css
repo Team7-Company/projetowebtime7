@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    padding: 10px;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 150px;
+
+    background-color: lightseagreen;
+}
+
+#corpo{
+    width: 100%;
+    height: 300px;
+
+    background-color: mediumpurple;
+}
+
+#form{
+    position: absolute;
+    
+    margin-left: 40%;
+    margin-top: 50px;
+
+    width: 200px;
+    height: 180px;
+
+    background-color: palegreen;
+}
+
+#rodape{
+    
+    width: 100%;
+    height: 150px;
+    float: left;
+
+    background-color: navajowhite;
+}

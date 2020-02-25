@@ -7,7 +7,8 @@ body{
     width: 100%;
     height: 150px;
 
-    background-color: lightseagreen;
+
+    /*background-color: lightseagreen;*/
 }
 
 #corpo{
@@ -41,9 +42,9 @@ body{
 #slides{
     list-style: none;
     position: relative;
-    width: 800px;
-    height: 300px;
-    margin: 0 auto;
+    width: auto;
+    height: 150px;
+    
     overflow: hidden;
 }
 

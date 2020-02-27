@@ -1,66 +1,88 @@
 body{
-    margin: auto;
+    margin: 10px;
     padding: 10px;
 }
 
-#cabecalho{
+#cabecalho {
+    font-size: 22px;
     width: 100%;
-    height: 150px;
-
-
-    /*background-color: lightseagreen;*/
-}
-
-#corpo{
-    width: 100%;
-    height: 300px;
-
-    background-color: mediumpurple;
-}
-
-#form{
-    position: absolute;
-    
-    margin-left: 40%;
+    height: 75px;
+    background-color: ;
     margin-top: 50px;
-
-    width: 200px;
-    height: 180px;
-
-    background-color: palegreen;
 }
+
+input[type="submit"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #050505;
+    padding: 3px 3px;
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#ffffff),
+            color-stop(0.50, #ebebeb),
+            color-stop(0.50, #dbdbdb),
+            to(#b5b5b5));
+    background: linear-gradient(
+            top,
+            #ffffff 0%,
+            #ebebeb 50%,
+            #dbdbdb 50%,
+            #b5b5b5);
+    border-radius: 7px;
+    border: 1px solid #949494;
+    box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 2px rgba(255,255,255,1);
+    text-shadow:
+            0px -1px 0px rgba(000,000,000,0.2),
+            0px 1px 0px rgba(255,255,255,1);
+}
+
+input[type="submit"] {
+    background-color: #b5b5b5;
+}
+
+#corpo {
+    width: 100%;
+    height: 190px;
+    background-color: white;
+}
+
+#form {
+    position: center;
+    width: 200px;
+    height: 160px;
+    background-color: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#ffffff),
+            color-stop(0.50, #ebebeb),
+            to(#f5edf5));
+    background: linear-gradient(
+            top,
+            #ffffff 0%,
+            #ebebeb 50%,
+            #f5edf5);
+    border-radius: 10px;
+    border: 1px solid #949494;
+    box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 2px rgba(255,255,255,1);
+    text-shadow:
+            0px -1px 0px rgba(000,000,000,0.2),
+            0px 1px 0px rgba(255,255,255,1);
+}
+
 
 #rodape{
     
     width: 100%;
-    height: 150px;
+    height: 90px;
     float: left;
 
-    background-color: navajowhite;
-}
-
-#slides{
-    list-style: none;
-    position: relative;
-    width: auto;
-    height: 150px;
-    
-    overflow: hidden;
-}
-
-#slides li{
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: 0;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    transition: opacity 1s;
-}
-
-#slides li.slide-ativo{
-    z-index: 1;
-    opacity: 1;
+    background-color: white;
 }

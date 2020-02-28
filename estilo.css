@@ -1,14 +1,13 @@
+body{margin: 10px;
+    padding: 10px;
+}
+
 #cabecalho {
     font-size: 22px;
     width: 100%;
     height: 75px;
     background-color: ;
     margin-top: 50px;
-}
-
-body{
-    margin: 10px;
-    padding: 10px;
 }
 
 input[type="submit"]{
